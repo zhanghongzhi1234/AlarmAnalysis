@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <ItemGroup>
+    <System ID="1" Name="Signaling" ShortName="SIG" Color="YellowGreen">
+      <Subsystem ID="12" Name="ATS"/>
+      <Subsystem ID="13" Name="ATC"/>
+      <Subsystem ID="14" Name="CB"/>
+    </System>
+    <System ID="2" Name="Rolling Stock" ShortName="RSC" Color="Orange">
+      <Subsystem ID="6" Name="DOR"/>
+      <Subsystem ID="7" Name="DRV"/>
+      <Subsystem ID="8" Name="EB"/>
+      <Subsystem ID="9" Name="PRO"/>
+    </System>
+    <System ID="3" Name="Platform Screen Door" ShortName="PSD" Color="Brown">
+      <Subsystem ID="10" Name="DRMOD"/>
+      <Subsystem ID="11" Name="PSCC"/>
+    </System>
+    <System ID="4" Name="Communication" ShortName="COMMS" Color="SteelBlue">
+      <Subsystem ID="1" Name="TVSS_Client_A1"/>
+      <Subsystem ID="2" Name="TVSS_Client_A2"/>
+      <Subsystem ID="3" Name="TVSS_Client"/>
+      <Subsystem ID="4" Name="TVSS_Client_B1"/>
+      <Subsystem ID="5" Name="TVSS_Client_B2"/>
+    </System>
+  </ItemGroup>
+  <ItemGroup>
+    <Severity ID="1" Name="Critical" Color="Red"/>
+    <Severity ID="2" Name="Major" Color="Purple"/>
+    <Severity ID="3" Name="Minor" Color="Coral"/>
+    <Severity ID="4" Name="Warning" Color="Yellow"/>
+  </ItemGroup>
+  <PollInterval Value="3000"/>
+  <AlarmFilePath Value="C:\transactive\ATSAlarms"/>
+  <AlarmDatabase Value="C:\transActive\bin\AlarmAnalysis\Database\Alarm.db"/>
+  <AlarmThreshold Value="110"/>
+  <BlinkInterval Value="1000"/>
+  <PopupFilter Value="true"/>
+  <LocalTest Value="false"/>
+</root>

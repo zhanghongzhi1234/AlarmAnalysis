@@ -1,0 +1,13 @@
+<Root>
+  <ItemGroup>
+    <Server Name="Local" Type="SQLITE" DatabaseName="Alarm.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <DataSource Name="Data1" Type="Static" ChartType="Pie" LabelEnabled="True"/>
+    <DataSource Name="Data2" Type="Static" ChartType="Column" LabelEnabled="True"/>
+  </ItemGroup>
+  <ItemGroup>
+    <Mapping UIElement="Chart1" DataSource="Data1" />
+    <Mapping UIElement="Chart2" DataSource="Data2" />
+  </ItemGroup>
+</Root>

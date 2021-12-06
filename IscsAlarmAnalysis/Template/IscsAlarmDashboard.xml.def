@@ -1,0 +1,10 @@
+<Root>
+  <ItemGroup>
+    <DataSource Name="Data3" Type="Static" ChartType="Column" LabelEnabled="True"/>
+    <DataSource Name="Data4" Type="Static" ChartType="Column" LabelEnabled="True"/>
+  </ItemGroup>
+  <ItemGroup>
+    <Mapping UIElement="Chart3" DataSource="Data3" />
+    <Mapping UIElement="Chart4" DataSource="Data4" />
+  </ItemGroup>
+</Root>

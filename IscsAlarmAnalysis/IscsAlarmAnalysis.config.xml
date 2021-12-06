@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <ItemGroup>
+    <System ID="3" Name="ATS" OrderID="5">
+	    <Subsystem ID="20" Name="TBS"/>
+	  </System>
+    <System ID="5" Name="ECS" OrderID="4">
+      <Subsystem ID="44" Name="ECS &amp; TVS"/>
+    </System>
+    <System ID="6" Name="Incident" OrderID="6"/>
+    <System ID="8" Name="MMS" OrderID="3"/>
+    <System ID="10" Name="Plans" OrderID="7"/>
+    <System ID="13" Name="Reporting" OrderID="10"/>
+    <System ID="15" Name="Scheduling" OrderID="9"/>
+    <System ID="16" Name="Security" OrderID="8"/>
+    <System ID="19" Name="SystemControl" OrderID="11"/>
+    <System ID="22" Name="Trending" OrderID="12"/>
+    <System ID="100" Name="Comms" OrderID="1">
+      <Subsystem ID="11" Name="PA"/>
+      <Subsystem ID="12" Name="Radio"/>
+      <Subsystem ID="17" Name="TIS"/>
+      <Subsystem ID="23" Name="VSS"/>
+      <Subsystem ID="24" Name="Comm - PA"/>
+      <Subsystem ID="25" Name="Comm - VSS"/>
+      <Subsystem ID="26" Name="Comm - TIS"/>
+      <Subsystem ID="27" Name="Comm - Radio"/>
+      <Subsystem ID="28" Name="Comm - CBN"/>
+      <Subsystem ID="29" Name="Comm - Clock"/>
+      <Subsystem ID="30" Name="Comm - Intercom"/>
+      <Subsystem ID="31" Name="Comm - UPS"/>
+      <Subsystem ID="32" Name="Comm - McVOR"/>
+      <Subsystem ID="33" Name="Comm - PABX"/>
+      <Subsystem ID="51" Name="CET - Intruder Alm"/>
+    </System>
+    <System ID="101" Name="SCADA" OrderID="2">
+      <Subsystem ID="7" Name="InspectorPanel"/>
+      <Subsystem ID="14" Name="SCADA"/>
+      <Subsystem ID="34" Name="SMC - FPS"/>
+      <Subsystem ID="35" Name="SMC - Public Light"/>
+      <Subsystem ID="36" Name="SMC - Tunnel Light"/>
+      <Subsystem ID="37" Name="SMC - Shutter"/>
+      <Subsystem ID="38" Name="SMC - Drainage"/>
+      <Subsystem ID="39" Name="SMC - ITESS"/>
+      <Subsystem ID="40" Name="SMC - XPESS"/>
+      <Subsystem ID="41" Name="SMC - Lift"/>
+      <Subsystem ID="42" Name="SMC - ESC"/>
+      <Subsystem ID="43" Name="ISCS - BMF"/>
+      <Subsystem ID="45" Name="PS - HV (Mainline)"/>
+      <Subsystem ID="46" Name="PS - Traction (Mainline)"/>
+      <Subsystem ID="47" Name="PS - LV"/>
+      <Subsystem ID="48" Name="PS - HV(Depot)"/>
+      <Subsystem ID="49" Name="PS - Traction(Depot)"/>
+    </System>
+  </ItemGroup>
+  <ItemGroup>
+    <Severity ID="1" Name="SEV1" Color="Red"/>
+    <Severity ID="2" Name="SEV2" Color="Magenta"/>
+    <Severity ID="3" Name="SEV3" Color="Orange"/>
+    <Severity ID="4" Name="SEV4" Color="Yellow"/>
+    <Severity ID="5" Name="SEV5" Color="#FFFFB0"/>
+  </ItemGroup>
+  <ItemGroup>
+    <Location ID="3" Name="BKP" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="4" Name="CSW" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="5" Name="HVW" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="6" Name="HME" TypeName="Station" Operational="0"  PumpThreshold="20"/>
+    <Location ID="7" Name="BTW" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="8" Name="KAP" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="9" Name="SAV" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="10" Name="TKK" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="11" Name="BTN" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="12" Name="STV" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="13" Name="NEW" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="14" Name="GBD" TypeName="Depot"  PumpThreshold="20"/>
+    <Location ID="15" Name="LTI" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="16" Name="RCR" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="17" Name="BGS" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="18" Name="PMN" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="90" Name="BFT" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="50" Name="DTN" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="51" Name="TLA" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="52" Name="CNT" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="19" Name="FCN" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="20" Name="BCL" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="21" Name="JLB" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="22" Name="BDM" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="23" Name="GLB" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="24" Name="MTR" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="25" Name="MPS" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="26" Name="UBI" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="27" Name="KKB" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="28" Name="BDN" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="29" Name="BDR" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="30" Name="TPW" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="31" Name="TAM" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="32" Name="TPE" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="34" Name="UPC" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="35" Name="XPO" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="36" Name="TSFB" TypeName="Depot"  PumpThreshold="20"/>
+    <Location ID="37" Name="XPFB" TypeName="Depot"  PumpThreshold="20"/>
+    <Location ID="38" Name="ECID" TypeName="Depot"  PumpThreshold="20"/>
+    <Location ID="39" Name="XLN" TypeName="Station"  PumpThreshold="20"/>
+    <Location ID="40" Name="SBD" TypeName="Station"  PumpThreshold="20"/>
+  </ItemGroup>
+  <PollInterval Value="3000"/>
+  <AlarmFilePath Value="C:\transactive\ATSAlarms"/>
+  <AlarmDatabase Value="C:\transActive\bin\AlarmAnalysis\Database\Alarm.db"/>
+  <AlarmThreshold Value="110"/>
+  <BlinkInterval Value="1000"/>
+  <PopupFilter Value="true"/>
+  <AtsAlarmAnalysisBinary Value="F:\WPF\EMS\AlarmAnalysis\Source\AlarmAnalysis\code\AtsAlarmAnalysis\bin\Release\AtsAlarmAnalysis.exe"/>
+  <LocalTest Value="false"/>
+</root>

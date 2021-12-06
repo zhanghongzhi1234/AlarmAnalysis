@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <ItemGroup>
+    <System ID="3" Name="ATS"/>
+    <System ID="5" Name="ECS"/>
+    <System ID="6" Name="Incident"/>
+    <System ID="8" Name="MMS"/>
+    <System ID="10" Name="Plans"/>
+    <System ID="13" Name="Reporting"/>
+    <System ID="15" Name="Scheduling"/>
+    <System ID="100" Name="Comms">
+      <Subsystem ID="11" Name="PA"/>
+      <Subsystem ID="12" Name="Radio"/>
+      <Subsystem ID="17" Name="TIS"/>
+      <Subsystem ID="23" Name="VSS"/>
+    </System>
+    <System ID="101" Name="SCADA">
+      <Subsystem ID="7" Name="InspectorPanel"/>
+      <Subsystem ID="14" Name="SCADA"/>
+    </System>
+    </System>
+  </ItemGroup>
+  <ItemGroup>
+    <Severity ID="1" Name="SEV1" Color="Red"/>
+    <Severity ID="2" Name="SEV2" Color="Magenta"/>
+    <Severity ID="3" Name="SEV3" Color="Orange"/>
+    <Severity ID="4" Name="SEV4" Color="Yellow"/>
+    <Severity ID="5" Name="SEV5" Color="#FFFFB0"/>
+  </ItemGroup>
+  <ItemGroup>
+    <Location ID="3" Name="BKP" TypeName="Station"/>
+    <Location ID="4" Name="CSW" TypeName="Station"/>
+    <Location ID="5" Name="HVW" TypeName="Station"/>
+    <Location ID="6" Name="HME" TypeName="Station" Operational="0"/>
+    <Location ID="7" Name="BTW" TypeName="Station"/>
+    <Location ID="8" Name="KAP" TypeName="Station"/>
+    <Location ID="9" Name="SAV" TypeName="Station"/>
+    <Location ID="10" Name="TKK" TypeName="Station"/>
+    <Location ID="11" Name="BTN" TypeName="Station"/>
+    <Location ID="12" Name="STV" TypeName="Station"/>
+    <Location ID="13" Name="NEW" TypeName="Station"/>
+    <Location ID="14" Name="GBD" TypeName="Depot"/>
+    <Location ID="15" Name="LTI" TypeName="Station"/>
+    <Location ID="16" Name="RCR" TypeName="Station"/>
+    <Location ID="17" Name="BGS" TypeName="Station"/>
+    <Location ID="18" Name="PMN" TypeName="Station"/>
+    <Location ID="90" Name="BFT" TypeName="Station"/>
+    <Location ID="50" Name="DTN" TypeName="Station"/>
+    <Location ID="51" Name="TLA" TypeName="Station"/>
+    <Location ID="52" Name="CNT" TypeName="Station"/>
+    <Location ID="19" Name="FCN" TypeName="Station"/>
+    <Location ID="20" Name="BCL" TypeName="Station"/>
+    <Location ID="21" Name="JLB" TypeName="Station"/>
+    <Location ID="22" Name="BDM" TypeName="Station"/>
+    <Location ID="23" Name="GLB" TypeName="Station"/>
+    <Location ID="24" Name="MTR" TypeName="Station"/>
+    <Location ID="25" Name="MPS" TypeName="Station"/>
+    <Location ID="26" Name="UBI" TypeName="Station"/>
+    <Location ID="27" Name="KKB" TypeName="Station"/>
+    <Location ID="28" Name="BDN" TypeName="Station"/>
+    <Location ID="29" Name="BDR" TypeName="Station"/>
+    <Location ID="30" Name="TPW" TypeName="Station"/>
+    <Location ID="31" Name="TAM" TypeName="Station"/>
+    <Location ID="32" Name="TPE" TypeName="Station"/>
+    <Location ID="34" Name="UPC" TypeName="Station"/>
+    <Location ID="35" Name="XPO" TypeName="Station"/>
+    <Location ID="36" Name="TSFB" TypeName="Depot"/>
+    <Location ID="37" Name="XPFB" TypeName="Depot"/>
+    <Location ID="38" Name="ECID" TypeName="Depot"/>
+    <Location ID="39" Name="XLN" TypeName="Station"/>
+    <Location ID="40" Name="SBD" TypeName="Station"/>
+  </ItemGroup>
+  <PollInterval Value="3000"/>
+  <AlarmFilePath Value="C:\transactive\ATSAlarms"/>
+  <ArchiveKeepDays Value="3"/>
+  <AlarmThreshold Value="110"/>
+  <BlinkInterval Value="1000"/>
+  <AlarmDatabase Value="C:\transActive\bin\AlarmAnalysis\Database\Alarm.db"/>
+  <TransactDBConfig DbType="ORACLE" TNSName="TRANSACT" Username="IT271350_5" Password="IT271350_5"/>
+  <LocalTest Value="false"/>
+</root>

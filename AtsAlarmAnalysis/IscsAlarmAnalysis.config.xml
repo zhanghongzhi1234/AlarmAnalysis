@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <ItemGroup>
+    <System ID="3" Name="ATS"/>
+    <System ID="5" Name="ECS"/>
+    <System ID="6" Name="Incident"/>
+    <System ID="8" Name="MMS"/>
+    <System ID="10" Name="Plans"/>
+    <System ID="13" Name="Reporting"/>
+    <System ID="15" Name="Scheduling"/>
+    <System ID="16" Name="Security"/>
+    <System ID="19" Name="SystemControl"/>
+    <System ID="22" Name="Trending"/>
+    <System ID="100" Name="Comms">
+      <Subsystem ID="11" Name="PA"/>
+      <Subsystem ID="12" Name="Radio"/>
+      <Subsystem ID="17" Name="TIS"/>
+      <Subsystem ID="23" Name="VSS"/>
+    </System>
+    <System ID="101" Name="SCADA">
+      <Subsystem ID="7" Name="InspectorPanel"/>
+      <Subsystem ID="14" Name="SCADA"/>
+    </System>
+  </ItemGroup>
+  <ItemGroup>
+    <Severity ID="1" Name="SEV1" Color="Red"/>
+    <Severity ID="2" Name="SEV2" Color="Magenta"/>
+    <Severity ID="3" Name="SEV3" Color="Orange"/>
+    <Severity ID="4" Name="SEV4" Color="Yellow"/>
+    <Severity ID="5" Name="SEV5" Color="#FFFFB0"/>
+  </ItemGroup>
+  <ItemGroup>
+    <Location ID="1" Name="OCC"/>
+    <Location ID="2" Name="TDS"/>
+    <Location ID="3" Name="KCD"/>
+    <Location ID="4" Name="DT02"/>
+    <Location ID="5" Name="DT03"/>
+    <Location ID="6" Name="DT04" Operational="0"/>
+    <Location ID="7" Name="DT05"/>
+    <Location ID="8" Name="DT06"/>
+    <Location ID="9" Name="DT07"/>
+    <Location ID="10" Name="DT08"/>
+    <Location ID="11" Name="DT09"/>
+    <Location ID="12" Name="DT10"/>
+    <Location ID="13" Name="DT11"/>
+    <Location ID="14" Name="GBD"/>
+    <Location ID="15" Name="DT12"/>
+    <Location ID="16" Name="DT13"/>
+    <Location ID="17" Name="DT14"/>
+    <Location ID="18" Name="DT15"/>
+    <Location ID="19" Name="DT20"/>
+    <Location ID="20" Name="DT21"/>
+    <Location ID="21" Name="DT22"/>
+    <Location ID="22" Name="DT23"/>
+    <Location ID="23" Name="DT24"/>
+    <Location ID="24" Name="DT25"/>
+    <Location ID="25" Name="DT26"/>
+    <Location ID="26" Name="DT27"/>
+    <Location ID="28" Name="DT28"/>
+    <Location ID="29" Name="DT29"/>
+    <Location ID="30" Name="DT30"/>
+    <Location ID="31" Name="DT31"/>
+    <Location ID="32" Name="DT32"/>
+    <Location ID="33" Name="DT33"/>
+    <Location ID="34" Name="DT34"/>
+    <Location ID="35" Name="DT35"/>
+  </ItemGroup>
+  <PollInterval Value="3000"/>
+  <AlarmFilePath Value="C:\transactive\ATSAlarms"/>
+  <AlarmDatabase Value="C:\transActive\bin\AlarmAnalysis\Database\Alarm.db"/>
+  <AlarmThreshold Value="110"/>
+  <BlinkInterval Value="1000"/>
+  <PopupFilter Value="true"/>
+  <LocalTest Value="false"/>
+</root>

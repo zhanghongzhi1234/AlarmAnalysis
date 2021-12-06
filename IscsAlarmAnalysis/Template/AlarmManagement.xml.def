@@ -1,0 +1,18 @@
+<Root>
+  <ItemGroup>
+    <DataSource Name="Data1_1" Type="Static" ChartType="Column" LegendText="B01" LabelEnabled="True"/>
+    <DataSource Name="Data2_1" Type="Static" ChartType="Pie"/>
+    <DataSource Name="Data3_1" Type="Static" ChartType="Doughnut" Exploded="True"/>
+    <DataSource Name="Data4_1" Type="Static" ChartType="Pie" LabelEnabled="True" LabelFormat="XValue: YValue%" ShowInLegend="False" Exploded="True"/>
+    <DataSource Name="Data5_1" Type="Static" ChartType="StackedColumn" LegendText="COM"/>
+    <DataSource Name="Data5_2" Type="Static" ChartType="StackedColumn" LegendText="RSC"/>
+    <DataSource Name="Data5_3" Type="Static" ChartType="StackedColumn" LegendText="SIG"/>
+  </ItemGroup>
+  <ItemGroup>
+    <Mapping UIElement="Chart1" DataSource="Data1_1" />
+    <Mapping UIElement="Chart2" DataSource="Data2_1" />
+    <Mapping UIElement="Chart3" DataSource="Data3_1" />
+    <Mapping UIElement="Chart4" DataSource="Data4_1" />
+    <Mapping UIElement="Chart5" DataSource="Data5_1,Data5_2,Data5_3" />
+  </ItemGroup>
+</Root>

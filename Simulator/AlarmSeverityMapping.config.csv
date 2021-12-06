@@ -1,0 +1,415 @@
+System,SubSystem,Value,Description,Severity
+RSC,PIS,ACTIVATED,Summary Status of PEC,E
+RSC,FSD,DETECTED,External Fire Alarm Status,1
+RSC,FSD,DETECTED,Internal Fire Alarm Status,1
+RSC,FSD,FAULT,DM1 Fire Detection Control Unit High Fault Status,E
+RSC,FSD,FAULT,DM2 Fire Detection Control Unit High Fault Status,E
+RSC,FSD,FAULT,Train Fire Detection Control Unit High Fault Status,1
+RSC,FSD,UNKNOWN,DM1 Communication link with Fire Detection Control Unit Status,E
+RSC,FSD,FAULT,DM1 Communication link with Fire Detection Control Unit Status,E
+RSC,FSD,UNKNOWN,DM2 Communication link with Fire Detection Control Unit Status,E
+RSC,FSD,FAULT,DM2 Communication link with Fire Detection Control Unit Status,E
+RSC,FSD,UNKNOWN,Train Communication link with Fire Detection Control Unit Status,1
+RSC,FSD,BOTH FAULT,Train Communication link with Fire Detection Control Unit Status,1
+RSC,BRK,MINOR FAULT,Summary Status of Brake Control Unit ,E
+RSC,BRK,MAJOR FAULT,Summary Status of Brake Control Unit ,E
+RSC,PRO,MINOR FAULT,Summary Status of Drive Control Unit,E
+RSC,PRO,MAJOR FAULT,Summary Status of Drive Control Unit,E
+RSC,AUX,MAJOR FAULT,Summary Status of Auxiliary Inverter ,E
+RSC,ACV,UNKNOWN,Summary Status of Emergency Ventilation ,E
+RSC,ACV,ACTIVATED,Summary Status of Emergency Ventilation ,E
+RSC,FSD,UNKNOWN,Summary Status of Fire Extinguisher ,E
+RSC,FSD,>=1 REMOVED,Summary Status of Fire Extinguisher ,E
+RSC,PRO,NOT AVAILABLE,Summary Status of Motoring Permission ,1
+RSC,PRO,NOT AVAILABLE,Status of Motoring Permission due Effort Demand,E
+RSC,PRO,NOT AVAILABLE,Status of Motoring Permission due to Train mode mismatch,E
+RSC,PRO,NOT AVAILABLE,Status of Motoring Permission due to traction safe ,E
+RSC,BRK,FAILED,Brake Control Unit Self Test Status,E
+RSC,TL,NOT AVAILABLE,Summary Status of Motoring Permission due to Drive Command Trainline,2
+RSC,TL,NOT AVAILABLE,Status of Motoring Permission due to  Main Air Pipe Pressure,E
+RSC,TL,NOT AVAILABLE,Status of Motoring Permission due to Parking Brake ,E
+RSC,TL,NOT AVAILABLE,Status of Motoring Permission due to Friction Brake,E
+RSC,TL,NOT AVAILABLE,Status of Motoring Permission Due to Door Loop,E
+RSC,TL,NOT AVAILABLE,Status of Motoring Permission Due to loss of EBCU,2
+RSC,TL,NOT AVAILABLE,Status of Motoring Permission Due to PEC activated,E
+RSC,TL,>=1 BYPASS,Summary Status of Bypass Switches,1
+RSC,TL,ACTIVATED,Call On,E
+RSC,TL,ACTIVATED,MRE Pressure Bypass Switch,E
+RSC,TL,ACTIVATED,Stuck Brake Bypass Switch,E
+RSC,TL,ACTIVATED,Door Loop Bypass Switch ,E
+RSC,TL,ACTIVATED,PEC Bypass Switch,E
+RSC,TL,ACTIVATED,PSD Bypass Switch,E
+RSC,TL,ACTIVATED,TRB Mode Switch ,E
+COM,RCS,DM1 FAILED,Train Radio,E
+COM,RCS,DM2 FAILED,Train Radio,E
+COM,RCS,BOTH FAILED,Train Radio,E
+RSC,BRK,NOT AVAILABLE,At least 4 Brakes Available,E
+RSC,BRK,>=1 FAULTY,Summary Status of Service Brake,E
+RSC,PRO,UNKNOWN,Status of individual Motor Control Module (MCM),E
+RSC,PRO,FAULTY,Status of individual Motor Control Module (MCM),2
+RSC,CTCS,UNKNOWN,Status of Individual Fire Extinguisher,E
+RSC,CTCS,REMOVED,Status of Individual Fire Extinguisher,E
+RSC,AUX,MINOR FAULT,Status of Individual Auxiliary Control Module (ACM),E
+RSC,AUX,MAJOR FAULT,Status of Individual Auxiliary Control Module (ACM),2
+RSC,ACV,UNKNOWN,"Status of Individual ACV System ",E
+RSC,ACV,DEGRADED MODE 1,"Status of Individual ACV System ",E
+RSC,ACV,DEGRADED MODE 2,"Status of Individual ACV System ",E
+RSC,ACV,EMERGENCY VENT,"Status of Individual ACV System ",2
+RSC,ACV,TUNNEL CUT-OUT,"Status of Individual ACV System ",2
+RSC,ACV,UNKNOWN,Status of Individual ACV Degraded Mode,E
+RSC,ACV,VENT MODE,Status of Individual ACV Degraded Mode,E
+RSC,ACV,EMERGENCY VENT,Status of Individual ACV Degraded Mode,2
+RSC,ACV,FAULTY,Status of Individual ACV Degraded Mode,E
+RSC,ACV,VENT MODE FAILED,Status of Individual ACV Degraded Mode,E
+RSC,ACV,EMER VENT FAILED,Status of Individual ACV Degraded Mode,E
+RSC,ACV,COOLING FAILED,Status of Individual ACV Degraded Mode,E
+RSC,DOR,OPEN,Door Interlock Loop,E
+RSC,DOR,UNKNOWN,"Door Operation",2
+RSC,DOR,OBSTRUCTION,"Door Operation",2
+RSC,DOR,FAULTY,"Door Operation",2
+RSC,DOR,OPEN BY EED,"Door Operation",2
+RSC,DOR,OPEN BY EAD,"Door Operation",E
+RSC,DOR,MECH LOCKED,"Door Operation",2
+RSC,DOR,EDCU OFF,"Door Operation",2
+RSC,EDD,UNKNOWN,Detrainment Door,1
+RSC,EDD,OPEN,Detrainment Door,1
+RSC,EDD,EVAC REQUEST,Detrainment Door,1
+RSC,EDD,FAULT,Detrainment Door,1
+RSC,EDD,SOL UNLOCK,Detrainment Door,1
+RSC,EDD,BYPASS,Detrainment Door,E
+COM,TVSS,DM1 INVALID,Summary of TVSS Agent,E
+COM,TVSS,DM2 INVALID,Summary of TVSS Agent,E
+COM,TVSS,BOTH INVALID,Summary of TVSS Agent,E
+COM,TVSS,DM1 FAILED,Summary of TVSS WLAN ,E
+COM,TVSS,DM2 FAILED,Summary of TVSS WLAN ,E
+COM,TVSS,BOTH FAILED,Summary of TVSS WLAN ,E
+COM,TVSS,>=1 FAIL,Summary Status of TVSS Camera,E
+COM,TVSS, FAULT,Summary Status of TVSS Equipment,E
+RSC,DRV,UNKNOWN,Cab Selection,E
+RSC,DRV,NO SELECTION,Cab Selection,E
+RSC,PIS,DM1 FAILED,Audio Control System Unit (ACSU),E
+RSC,PIS,DM2 FAILED,Audio Control System Unit (ACSU),E
+RSC,PIS,BOTH FAILED,Audio Control System Unit (ACSU),E
+RSC,TIM,FAULT,Summary Status of TIMS CCU-O/AX/DX Equipment,E
+RSC,TIM,FAULT,Summary Status of TIMS CCU-C/CCU-D/VDU Equipment,E
+RSC,FSD,UNKNOWN,Interior Smoke Detector,E
+RSC,FSD,DETECTED,Interior Smoke Detector,E
+RSC,FSD,FAULT,Interior Smoke Detector,E
+RSC,FSD,UNKNOWN,Exterior Smoke Detector,E
+RSC,FSD,DETECTED,Exterior Smoke Detector,E
+RSC,FSD,FAULT,Exterior Smoke Detector,E
+RSC,FSD,UNKNOWN,Linear Heat Detector,E
+RSC,FSD,DETECTED,Linear Heat Detector,E
+RSC,FSD,FAULT,Linear Heat Detector,E
+RSC,AUX,UNKNOWN,Battery Charger,E
+RSC,AUX,FAULT,Battery Charger,E
+RSC,PNE,LOW PRESSURE,Auxiliary Pressure ,1
+RSC,PIS,UNKNOWN,Infortainment System ,E
+RSC,PIS,ERROR,Infortainment System ,E
+RSC,HV,ABSENT,Line Voltage ,1
+RSC,PIS,UNKNOWN,Public Announcement (PA) ,E
+RSC,SLIP,DETECTED,Wheel Slip/Slide,E
+RSC,WGT,UNKNOWN,Total Train Weight ,E
+RSC,PIS,UNKNOWN,PEC Unit,E
+RSC,PIS,ACTIVATED,PEC Unit,E
+RSC,PIS,OCC IN COMMS,PEC Unit,E
+RSC,PIS,DRIVER IN COMMS,PEC Unit,E
+RSC,PIS,ON HOLD,PEC Unit,E
+RSC,PIS,FAULT,PEC Unit,E
+RSC,PIS,INVALID,DM1 Audio System,E
+RSC,PIS,ERROR,DM1 Audio System,E
+RSC,PIS,DEGRADE MODE,DM1 Audio System,E
+RSC,BRK,UNKNOWN,Service Brake Status,E
+RSC,BRK,ISOLATED,Service Brake Isolated Status ,1
+RSC,BRK,FAIL TO APPLY,Service Brake Fail to Apply Status ,E
+RSC,PRO,>= 1 TRIPPED,Summary Status of High Speed Crircuit Breaker (HSCB),2
+RSC,BRK,FAULT,Parking Brake,2
+RSC,MODE,UNKNOWN,Train Readiness State,E
+RSC,AUD,UNKNOWN,Audio Operation,E
+RSC,AUD,CTC,Audio Operation,E
+RSC,AUD,OCC/TRAIN CALL,Audio Operation,E
+COM,TVSS,UNKNOWN,TVSS Camera,Alert
+COM,TVSS,FAULT,TVSS Camera,Alert
+COM,TVSS,UNKNOWN,TVSS Agent,Alert
+COM,TVSS,UNKNOWN,TVSS WLAN Link,3
+COM,TVSS,FAULT,TVSS WLAN Link,3
+COM,TVSS,UNKNOWN,TVSS DVR,3
+COM,TVSS,COMM FAULT,TVSS DVR,3
+COM,TVSS,FAULT,TVSS DVR,3
+RSC,TIM,FAULT,DM1 CCU-O,1
+RSC,TIM,FAULT,DM2 CCU-O,1
+RSC,TIM,FAULT,DM1 MIO AX13  module,E
+RSC,TIM,FAULT,DM1 MIO AX14  module,E
+RSC,TIM,FAULT,DM2 MIO AX13  module,E
+RSC,TIM,FAULT,DM2 MIO AX14  module,E
+RSC,CTCS,ACTIVATED,Emergency Stop Push Button,1
+RSC,CTCS,UNAUTHORISED,Unauthorised Change of Direction,1
+RSC,BOG,OUT OF RANGE,Bogie 1 Air Suspension Pressure  ,2
+RSC,BOG,OUT OF RANGE,Bogie 2 Air Suspension Pressure  ,2
+RSC,BOG,OUT OF RANGE,Bogie 3 Air Suspension Pressure  ,2
+RSC,BOG,OUT OF RANGE,Bogie 4 Air Suspension Pressure  ,2
+RSC,BOG,OUT OF RANGE,Bogie 5 Air Suspension Pressure  ,2
+RSC,BOG,OUT OF RANGE,Bogie 6 Air Suspension Pressure  ,2
+SIG,ATC,ACTIVATED,EB due to activation of Cancel CBTC button in movement in CM (R),3
+SIG,ATC,ACTIVATED,EB due to an ESA activation ( R),2
+SIG,ATC,ACTIVATED,EB due to a common failure in both bearing sensors in FBSS (ATC Reset),2
+SIG,ATC,ACTIVATED,EB due to detection of a change in train length ( R),2
+SIG,ATC,ACTIVATED,EB due to train direction reported by ATP inconsistent with active cab,2
+SIG,ATC,ACTIVATED,EB due to train moving in platform with train doors or PSD opened ( R),2
+SIG,ATC,ACTIVATED,EB due to EB initial tests failed (ATC Reset),2
+SIG,ATC,ALARM,APR has been read outside of the expected position,3
+SIG,ATC,ACTIVATED,EB due to loss of speed codes when running in FBSS (NR),2
+SIG,ATC,ALARM,Both bearing sensors or both Doppler sensors are unavailable in CBTC,2
+SIG,ATC,ACTIVATED,EB due to insufficient number of Speed Sensors (NR),2
+SIG,ATC,ALARM,ATP has not received Movement Authority after handover process,3
+SIG,ATC,ACTIVATED,EB due to train reversing greater than allowable distance ( R),2
+SIG,ATC,ACTIVATED,EB due to train exceeded EOA in CBTC mode ( R),2
+SIG,ATC,ACTIVATED,EB due to train exceeded SVL in CBTC mode ( R),2
+SIG,ATC,ACTIVATED,EB due to overspeed in AM ( R),2
+SIG,ATC,ACTIVATED,EB due to Train overspeed in CM ( R),2
+SIG,ATC,ACTIVATED,EB due to Train overspeed in RM (NR),2
+SIG,ATC,ACTIVATED,EB due to train overspeed in jogging backwards ( R),2
+SIG,ATC,ACTIVATED,EB due to train rolling backwards detected ( R),2
+SIG,ATC,ACTIVATED,EB due to train movement detected in AM or CM FBSS with PSD open (NR),2
+SIG,ATC,ALARM,ATP missed 2 consecutive APR,2
+SIG,ATC,ACTIVATED,EB due a change in train direction (discretes) to ATP in movement (NR),2
+SIG,ATC,ACTIVATED,EB due to incorrect message received from trackside BP in CBTC ( R),2
+RSC,PIS,UNKNOWN,Infortainment Backlight Status,E
+RSC,,FBSS SIGNALLING,CBTC or FBSS signalling activation by ATC,E
+RSC,LGT,DM1 ON,Floodlight,E
+RSC,LGT,DM2 ON,Floodlight,E
+RSC,LGT,BOTH ON,Floodlight,E
+RSC,LGT,DM1 ON,Exit Light,E
+RSC,LGT,DM2 ON,Exit Light,E
+RSC,LGT,BOTH ON,Exit Light,E
+RSC,DCHK,OVERDUE,Train Daily Check Overdue,E
+RSC,PNE,FAULT,DM1 Air Compressor,1
+RSC,PNE,UNKNOWN,DM1 Main Reservoir Pressure,E
+RSC,PNE,LOW,DM1 Main Reservoir Pressure,2
+RSC,PNE,HIGH,DM1 Main Reservoir Pressure,E
+RSC,PNE,FAULT,DM2 Air Compressor,E
+RSC,PNE,UNKNOWN,DM2 Main Reservoir Pressure,E
+RSC,PNE,LOW,DM2 Main Reservoir Pressure,2
+RSC,PNE,HIGH,DM2 Main Reservoir Pressure,E
+RSC,TIM,FAULT,DM1 MIO DX A15,E
+RSC,TIM,FAULT,DM1 MIO DX A16,E
+RSC,TIM,FAULT,DM1 MIO DX A17,E
+RSC,TIM,FAULT,T-car MIO DX A15,E
+RSC,TIM,FAULT,T-car MIO DX A16,E
+RSC,TIM,FAULT,DM2 MIO DX A15,E
+RSC,TIM,FAULT,DM2 MIO DX A16,E
+RSC,TIM,FAULT,DM2 MIO DX A17,E
+RSC,ATC,NO VALID INFO,Status of TDMS,1
+RSC,ATC,TDMS NOT ACTIVE,Status of TDMS,E
+RSC,PIS,FAULT,DM1 ACSU,3
+RSC,PIS,FAULT,DM2 ACSU,3
+RSC,PIS,AUDIO LOSS,DM1 ACSU Audio Link,3
+COM,RCS,AUDIO LOSS,DM1 ACSU Radio Link,3
+COM,RCS,AUDIO LOSS,DM1 ACSU RCP Link,3
+RSC,PIS,AUDIO LOSS,DM2 ACSU Audio Link,3
+COM,RCS,AUDIO LOSS,DM2 ACSU Radio Link,3
+COM,RCS,AUDIO LOSS,DM2 ACSU RCP Link,3
+RSC,CAB,UNKNOWN,Deadman Switch,2
+RSC,CAB,DM1 FAULT,Deadman Switch,2
+RSC,CAB,DM2 FAULT,Deadman Switch,2
+RSC,CAB,DM1 RELAY FAULT,Deadman Switch,2
+RSC,CAB,DM2 RELAY FAULT,Deadman Switch,2
+RSC,CAB,DM1 RELAY DISCOR,Deadman Switch,2
+RSC,CAB,DM2 RELAY DISCOR,Deadman Switch,2
+RSC,BOG,UNKNOWN,Wheel Flange Lubrication MCB,2
+RSC,BOG,TRIPPED,Wheel Flange Lubrication MCB,2
+RSC,WFL,FAULT,Wheel Flange Lubrication in Bogie 2,2
+RSC,WFL,FAULT,Wheel Flange Lubrication in Bogie 3,2
+RSC,HTS,ABSENT,DM1 High Voltage,2
+RSC,HTS,ABSENT,DM2 High Voltage,2
+RSC,HTS,UNKNOWN,DM1 Rail Gap Detection,2
+RSC,HTS,DETECTED,DM1 Rail Gap Detection,2
+RSC,HTS,UNKNOWN,DM2 Rail Gap Detection,2
+RSC,HTS,DETECTED,DM2 Rail Gap Detection,2
+RSC,TIM,FAULT,DM1 CCU-C ,2
+RSC,TIM,FAULT,DM2 CCU-C ,2
+RSC,TIM,FAULT,DM1 VDU ,2
+RSC,TIM,FAULT,DM2 VDU ,2
+RSC,DRV,OPEN,DM1 Driver Console Cover ,2
+RSC,TIM,UNKNOWN,DM1 Event Recorder,2
+RSC,TIM,FAULT,DM1 Event Recorder,2
+RSC,TIM,UNKNOWN,DM2 Event Recorder,2
+RSC,TIM,FAULT,DM2 Event Recorder,2
+RSC,AUX,UNKNOWN,Battery 1,2
+RSC,AUX,LOW VOLTAGE,Battery 1,2
+RSC,AUX,FAULT,Battery 1,2
+RSC,AUX,UNKNOWN,Battery 2,2
+RSC,AUX,LOW VOLTAGE,Battery 2,2
+RSC,AUX,FAULT,Battery 2,2
+SIG,ATC,ALARM,One APR Missed,3
+SIG,ATC,FAILURE,Doppler 1 Status,AlErt
+SIG,ATC,FAILURE,Doppler 2 Status,alErt
+SIG,ATC,ALARM,Emergency Detrainment Door Unlocked,1
+SIG,ATC,ALARM,Train performed BP handover with one radio only,E
+SIG,ATC,ALARM,Coordinate system invalid due to APR received,3
+SIG,ATC,ALARM,One ATP Lane Failure,2
+SIG,ATC,ACTIVATED,ATP Emergency brake Status,2
+SIG,ATC,FBSS ACTIVE,Signalling changed to FBSS,2
+SIG,ATC,CBTC ACTIVE,Signalling changed to CBTC,AlErt
+SIG,ATC,FAILURE,Bearing Sensor 1 Faulty,2
+SIG,ATC,FAILURE,Bearing Sensor 2 Faulty,2
+SIG,ATC,ALARM,Speed Code Error detected,2
+SIG,ATC,FAILURE,APR Reader 1 Status,2
+SIG,ATC,FAILURE,APR Reader 2 Status,2
+SIG,ATC,ALARM,Unexpected APR Received,2
+SIG,ATC,ALARM,Unexpected APR ID Received,2
+SIG,ATC,ALARM,Incompatible BP Version Received,E
+SIG,ATC,ALARM,Wheel Slide Detected,E
+SIG,ATC,ALARM,Wheel Slip Detected,E
+SIG,ATC,ALARM,ATO has detected its location is inconsistent with the ATP location,E
+SIG,ATC,ALARM,Train Movement Detected with Holding Brake applied,1
+SIG,ATC,ALARM,APR out of expected position received,E
+SIG,ATC,ALARM,APR ID out of expected position received,E
+SIG,ATC,ALARM,ATO 1 lane failure,1
+SIG,ATC,ALARM,ATO 2 lane failure,1
+SIG,ATC,ALARM,ATO has detected that the train has exceeded the EOA,E
+SIG,ATC,ALARM,DMI 1 has reported an error in the Discrete Input/Output Interface.,E
+SIG,ATC,ALARM,Full Onboard Failure of ATO Reported,1
+SIG,ATC,UNKNOWN FAILURE,Train Readiness State transition failure,E
+SIG,ATC,REQUEST FROM ATS,Train Readiness State transition failure,E
+SIG,ATC,MANUAL REQUEST,Train Readiness State transition failure,E
+SIG,ATC,INVALID TRAIN ID,Train Readiness State transition failure,E
+SIG,ATC,INVALID STATE,Train Readiness State transition failure,E
+SIG,ATC,MODE UNKNOWN,Train Readiness State transition failure,E
+SIG,ATC,INCOMPATIBLE MOD,Train Readiness State transition failure,E
+SIG,ATC,ALARM,TDMS failure in one lane,1
+SIG,ATC,ALARM,TDMS-Train event recorder link failure,E
+SIG,ATC,ALARM,TDMS- TIMS Communication Link Failure,E
+SIG,ATC,ALARM,TDMS-ATP Communication Link Failure,1
+SIG,ATC,ALARM,TDMS-ATO Communication Link Failure,1
+SIG,ATC,ALARM,TDMS-DMI 1 Communication Link Failure,E
+SIG,ATC,ALARM,TDMS-DMI 2 Communication Link Failure,E
+SIG,ATC,ALARM,TDMS-Local ATS Communication Link Failure,1
+SIG,ATC,MMS LINK FAIL,TDMS-PSD Communication Link Failure,E
+SIG,ATC,PLC LINK FAIL,TDMS-PSD Communication Link Failure,1
+SIG,ATC,ALL LINKS FAIL,TDMS-PSD Communication Link Failure,1
+SIG,ATC,ACTIVATED,EB due to Change in ATP State while train is moving (NR),2
+SIG,ATC,ALARM,Evacuation process started,E
+SIG,ATC,ALARM,Train overrun detected ,E
+SIG,ATC,ALARM,Jog Failure,E
+SIG,ATC,ALARM,Depot Movement Request Failure,E
+RSC,DRS,>=1 OFFLINE,Summary Status of Train Doors,E
+RSC,DRS,>=1 OBSTRUCT,Summary of Train Doors Status with Obstruct,E
+RSC,DRS,>=1 FAULT/INVLD,Summary of Train Doors Status with Fault,E
+RSC,DRS,>=1 EED ACT,Summary of Train Doors Status with EED Act,E
+RSC,DRS,>=1 PUSH BACK,Summary of Train Doors Status with Push Back,E
+RSC,DRS,>=1 EAD ACT,Summary of Train Doors Status with EAD Act,E
+RSC,DRS,>=1 ISOLATED,Summary of Train Doors Status with Isolated,E
+RSC,PIS,UNKNOWN,Train LED Display (LEDD),3
+RSC,PIS,FAULT,Train LED Display (LEDD),3
+RSC,PIS,UNKNOWN,Train Dynamic Route Map Display (DRMD),3
+RSC,PIS,FAULT,Train Dynamic Route Map Display (DRMD),3
+RSC,PIS,UNKNOWN,Train Number Display (TND),3
+RSC,PIS,FAULT,Train Number Display (TND),3
+RSC,PIS,UNKNOWN,Train LCD Display,3
+RSC,PIS,FAULT,Train LCD Display,3
+RSC,ACV,UNKNOWN,Summary Status of Fresh Air Dampers,2
+RSC,ACV,>=1 FAULT,Summary Status of Fresh Air Dampers,2
+RSC,BRK,BRAKE FAULT ,Brake Valve Fatal Error in Bogie1,2
+RSC,BRK,BRAKE FAULT ,Brake Valve Fatal Error in Bogie2,2
+RSC,BRK,BRAKE FAULT ,Brake Valve Fatal Error in Bogie3,2
+RSC,BRK,BRAKE FAULT ,Brake Valve Fatal Error in Bogie4,2
+RSC,BRK,BRAKE FAULT ,Brake Valve Fatal Error in Bogie5,2
+RSC,BRK,BRAKE FAULT ,Brake Valve Fatal Error in Bogie6,2
+RSC,BRK,NOT AVAILABLE,At least 5 Brakes Available,2
+RSC,TIM,>= 80%,ODBS Filling Level (warning) ,3
+RSC,TIM, = 100%,ODBS Filling Level (alarm),3
+RSC,TIM,FAULT,CCU-D Life sign,2
+RSC,TIM,NO FEEDBACK,Critical alarms acknowledgement from ATC,2
+RSC,TIM,NO FEEDBACK,Critical alarms  acknowledgement from Radio,2
+RSC,TIM,NO FEEDBACK,Non- Critical alarms acknowledgement from ATC,2
+RSC,END,UNKNOWN,Train Coupling,2
+RSC,END,FULL COUPLED,Train Coupling,2
+RSC,END,NOT DETECTED,Train Coupling,2
+RSC,END,STUCK,Train Coupling,2
+RSC,END,MECH COUPLED,Train Coupling,2
+RSC,DRV,OPEN,DM2 Driver Console Cover ,2
+RSC,ACV,>=1 CAR LOSS,Summary Status of ACV Total Loss,2
+RSC,DRV,DETECTED,Master Fault,2
+RSC,TIM,FAULT,Multi-Vehicle Bus (MVB),2
+RSC,TIM,FAULT,Internet Protocol (IP) Ring,2
+RSC,LKO,FAULT,MRE Pressure Lockout Fault,2
+RSC,LKO,FAULT,Parking Brake Lockout Fault,2
+RSC,LKO,FAULT,Service Brake Lockout Fault,2
+RSC,LKO,FAULT,Door Interlock Lockout Fault,2
+RSC,LKO,FAULT,Loss of Brakes Lockout Fault,2
+RSC,LKO,FAULT,PEC Activation Lockout Fault,2
+RSC,BRK,DISCORDANCE,Five Brakes Trainline,2
+RSC,CAB,>=1 OPEN,Summary Status of Cubicle Door ,E
+RSC,FSD,DETECTED,DM1 FDCU Low Priority Failure,2
+RSC,PIS,MASTER ERROR,ACSU Master Error,3
+RSC,COM,TIME-OUT,TIMS Test Call Timout,3
+RSC,FSD,DETECTED,DM2 FDCU Low Priority Failure,2
+RSC,FSD,DETECTED,Summary Status of FDCU Low Priortiy Failure,2
+RSC,DOR,DISCORDANCE,Door Integrity Loop status with Doors Status,2
+RSC,TRB,ACTIVATED,TRB Mode,2
+RSC,ZVR,DISCORDANCE,Zero Speed indication,2
+RSC,EB,UNKNOWN,Emergency Brake ,2
+RSC,EB,BY ATP,Emergency Brake ,2
+RSC,EB,BY DMS,Emergency Brake ,2
+RSC,EB,BY EMPB,Emergency Brake ,2
+RSC,EB,BY OBS,Emergency Brake ,2
+RSC,EB,OTHERS,Emergency Brake ,2
+COM,RCS,FAILED,DM1 Radio Coverage,2
+COM,RCS,FAILED,DM2 Radio Coverage,2
+RSC,PIS,INVALID,DM2 Audio System,2
+RSC,PIS,ERROR,DM2 Audio System,2
+RSC,PIS,DEGRADE MODE,DM2 Audio System,2
+RSC,TIS,DOWNLOADING,TTIS Download,3
+RSC,TIS,UNKNOWN,Infotainment Server,3
+RSC,TIS,FAULT,Infotainment Server,3
+RSC,BRK,UNKNOWN,Brake Control Unit (BCU),2
+RSC,BRK,MINOR FAULT,Brake Control Unit (BCU),E
+RSC,BRK,MAJOR FAULT,Brake Control Unit (BCU),E
+RSC,PIS,FAULT,DM1 Passenger Announcement Control Unit (PACU),2
+RSC,PIS,FAULT,DM2 Passenger Announcement Control Unit (PACU),2
+RSC,EMR,UNKNOWN,Emergency Equipment,2
+RSC,EMR,>=1 ACTIVATED,Emergency Equipment,2
+RSC,BRK,UNKNOWN,Train Driving Direction,2
+SIG,ATC,ALARM,TDMS has received incomplete PTI Data,E
+SIG,ATC,ALARM,TDMS has received an invalid Crew number,E
+SIG,ATC,INVALID,TDMS indication of the Daily Checks status,E
+SIG,ATC,DAILY CHECK ACTIVE,TDMS indication of the Daily Checks status,E
+SIG,ATC,COMPLETED,TDMS indication of the Daily Checks status,E
+SIG,ATC,REJECTED,Creep command Status,E
+SIG,ATC,FAILURE,TDMS has detected a failure in the Creep Discrete I/O,E
+SIG,ATC,FAILURE,TDMS has detected a failure in the Creep Dir Cab1 Discrete I/O,E
+SIG,ATC,FAILURE,TDMS has detected a failure in the Creep Dir Cab2 Discrete I/O,E
+SIG,ATC,FAILURE,TDMS has detected a failure in the TDMS Sleep Discrete I/O,E
+SIG,ATC,FAILURE,TDMS has detected a failure in the TDMS WakeUp Discrete I/O,E
+SIG,ATC,FAILURE,TDMS has detected a failure in the Reset ATP Discrete I/O,E
+SIG,ATC,FAILURE,TDMS has detected a failure in the Reset AT0 Discrete I/O,E
+SIG,ATC,NOT AVAILABLE,UTO Status after wake up,E
+RSC,BRK,DISCORDANCE,Four Brakes Trainline,2
+RSC,LGT,TRIPPED,Head & Flood Light MCB ,2
+RSC,ACV,>50DEGC,Exterior Temperature,2
+RSC,ACV,>50DEGC,Interior Temperature,2
+COM,TVSS,UNKNOWN,TVSS Back-up Camera,Alert
+COM,TVSS,FAULT,TVSS Back-up Camera,Alert
+COM,TVSS,UNKNOWN,TVSS Microphone,Alert
+COM,TVSS,FAULT,TVSS Microphone,Alert
+COM,TVSS,UNKNOWN,TVSS Microphone link,Alert
+COM,TVSS,FAULT,TVSS Microphone link,Alert
+COM,TVSS,UNKNOWN,TVSS DSP Link,Alert
+COM,TVSS,FAULT,TVSS DSP Link,Alert
+SIG,ATC,ALARM,ATO reported Train underrun during stabling,E
+SIG,ATC,ALARM,Train Stalled detected by ATP due to no FBSS and CBTC,1
+SIG,ATC,ACTIVATED,EB due that train exceeded the required maximum distance to stop ( R),1
+SIG,ATC,ACTIVATED,EB due to both ATO not available to drive the train in AM ( R),2
+SIG,ATC,ACTIVATED,EB due to no signalling system (CBTC/FBSS) available in AM or CM (A),2
+SIG,ATC,ACTIVATED,EB due Signalling conditions not satisfied in jogging backwards ( R),2
+SIG,ATC,ALARM,DMI 2 has reported an error in the Discrete Input/Output Interface.,E
+SIG,ATC,ALARM,ATP has reported a failure in Radio 1,1
+SIG,ATC,ALARM,ATP has reported a failure in Radio 2,1
+SIG,ATC,ACTIVATED,EB due to both cabs are active at the same time (NR),2
+SIG,ATC,ACTIVATED,EB initiated by the ATP,2
+RSC,CTCS,ACTIVATED,MCB TBCB 2 in DM1 car,2
+RSC,CTCS,ACTIVATED,MCB TBCB 12 in DM1 car,2
+RSC,CTCS,ACTIVATED,MCB DDCB in DM1 car,2
+RSC,CTCS,ACTIVATED,MCB BUCB 1 / BUCB 2 in T car,2
+RSC,CTCS,ACTIVATED,MCB ATCB 1 / ATCB 2 in T car,2

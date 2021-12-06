@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <ItemGroup>
+    <System ID="1" Name="Signaling" ShortName="SIG" Color="YellowGreen">
+      <Subsystem ID="1" Name="ATS" ResponseFile="AlarmResponseSheet-SIG-ATS.docx"/>
+      <Subsystem ID="2" Name="ATC" ResponseFile="AlarmResponseSheet-SIG-ATC.docx"/>
+      <Subsystem ID="3" Name="CB" ResponseFile="AlarmResponseSheet-SIG-CB.docx"/>
+    </System>
+    <System ID="2" Name="Rolling Stock" ShortName="RSC" Color="Orange">
+      <Subsystem ID="4" Name="ACV"/>
+      <Subsystem ID="5" Name="ATC"/>
+      <Subsystem ID="6" Name="AUD"/>
+      <Subsystem ID="7" Name="AUX"/>
+      <Subsystem ID="8" Name="BOG"/>
+      <Subsystem ID="9" Name="BRK"/>
+      <Subsystem ID="10" Name="CAB"/>
+      <Subsystem ID="11" Name="COM"/>
+      <Subsystem ID="12" Name="CTCS"/>
+      <Subsystem ID="13" Name="DCHK"/>
+      <Subsystem ID="14" Name="DOR" ResponseFile="AlarmResponseSheet-RSC-DOR.docx"/>
+      <Subsystem ID="15" Name="DRS"/>
+      <Subsystem ID="16" Name="DRV" ResponseFile="AlarmResponseSheet-RSC-DVR.docx"/>
+      <Subsystem ID="17" Name="EB" ResponseFile="AlarmResponseSheet-RSC-BRK.docx"/>
+      <Subsystem ID="18" Name="EDD"/>
+      <Subsystem ID="19" Name="EMR"/>
+      <Subsystem ID="20" Name="END"/>
+      <Subsystem ID="21" Name="FSD"/>
+      <Subsystem ID="22" Name="HTS"/>
+      <Subsystem ID="23" Name="HV"/>
+      <Subsystem ID="24" Name="LGT"/>
+      <Subsystem ID="25" Name="LKO"/>
+      <Subsystem ID="26" Name="MODE"/>
+      <Subsystem ID="27" Name="PIS"/>
+      <Subsystem ID="28" Name="PNE"/>
+      <Subsystem ID="29" Name="PRO" ResponseFile="AlarmResponseSheet-RSC-PIS.docx"/>
+      <Subsystem ID="30" Name="SLIP"/>
+      <Subsystem ID="31" Name="TIM"/>
+      <Subsystem ID="32" Name="TIS"/>
+      <Subsystem ID="33" Name="TL"/>
+      <Subsystem ID="34" Name="TRB"/>
+      <Subsystem ID="35" Name="WFL"/>
+      <Subsystem ID="36" Name="WGT"/>
+      <Subsystem ID="37" Name="ZVR"/>
+    </System>
+    <System ID="3" Name="Platform Screen Door" ShortName="PSD" Color="Brown">
+      <Subsystem ID="38" Name="DRMOD"/>
+      <Subsystem ID="39" Name="PSCC"/>
+    </System>
+    <System ID="4" Name="Communication" ShortName="COM" Color="SteelBlue">
+      <Subsystem ID="40" Name="RCS"/>
+      <Subsystem ID="41" Name="TVSS" ResponseFile="AlarmResponseSheet-COM-TVSS.docx"/>
+    </System>
+  </ItemGroup>
+  <ItemGroup>
+    <Severity ID="1" Name="1" Color="Red"/>
+    <Severity ID="2" Name="2" Color="Purple"/>
+    <Severity ID="3" Name="3" Color="Coral"/>
+    <Severity ID="Alert" Name="Alert" Color="Yellow"/>
+  </ItemGroup>
+  <PollInterval Value="3000"/>
+  <AlarmFilePath Value="C:\transactive\ATSAlarms"/>
+  <AlarmDatabase Value="C:\transActive\bin\AlarmAnalysis\Database\Alarm.db"/>
+  <AlarmThreshold Value="110"/>
+  <BlinkInterval Value="1000"/>
+  <PopupFilter Value="true"/>
+  <AlarmResponseSheetPath Value="C:\transActive\bin\AlarmAnalysis\AlarmResponseSheet"/>
+  <LocalTest Value="false"/>
+</root>
