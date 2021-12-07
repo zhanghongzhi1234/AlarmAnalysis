@@ -1,5 +1,5 @@
 # Singapore Downtown Line Alarm Analysis Application
-Alarm Analysis is a BI software belong to ISCS[https://github.com/zhanghongzhi1234/ISCS-demo] software suit. It use data mining to retrieve, analyze, transform and report alarm data. It provide a Graphical User Interface (GUI) of the Integrated ATS Alarm Analysis dashboard and satisfy the requirements outlined by the maintenance control operators at SBST. 
+Alarm Analysis is a BI software belong to [ISCS](https://github.com/zhanghongzhi1234/ISCS-demo) software suit. It use data mining to retrieve, analyze, transform and report alarm data. It provide a Graphical User Interface (GUI) of the Integrated ATS Alarm Analysis dashboard and satisfy the requirements outlined by the maintenance control operators at SBST. 
 
 # Background
 The objective of the Alarm Analysis tool is aimed to further analyze the alarms under ISCS system, to provide the users and operators with a more useful set of data representation. It is also aimed to increase the usability in view of the high volume of alarms received at any point of time. The most usability problem is that there are too many alarms annunciated in the currently operating system and this causes a high possibility of alarm flood.
